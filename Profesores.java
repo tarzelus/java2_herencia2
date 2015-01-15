@@ -10,7 +10,7 @@ public class Profesores extends Escuela{
 		super();
         }
 
-	// getter y setter
+	// getter y setter gitekin eclipse
 
 		public String getNombreProfe()
 		{
