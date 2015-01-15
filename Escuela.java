@@ -15,12 +15,12 @@ public class Escuela {
 	
 		
 //--------------------id escuela--------------------------------	
-		public String getIdEscuela()
+		public int getIdEscuela()
 		{
 			return idEscuela;
 		}
 		
-		public void  setIdEscuela(String idEscuela1)
+		public void  setIdEscuela(int idEscuela1)
 		{
 			idEscuela = idEscuela1;
 		}

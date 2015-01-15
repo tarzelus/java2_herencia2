@@ -1,11 +1,10 @@
-
-museopublic class Profesores extends Escuela{
+public class Profesores extends Escuela{
 
 
 	private String nombreProfe;
 	private int idProfe;
 	private String tipoProfe;
-	private Strig horarioProfe;
+	private String horarioProfe;
 
         public Profesores() {
 		super();

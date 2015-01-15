@@ -27,9 +27,9 @@ public class Alumnos extends Escuela
 			return cursoAlumno;
 		}
 		
-		public void  setCursoAlumno(String tipoMuseo1)
+		public void  setCursoAlumno(String cursoAlumno1)
 		{
-			cursoAlumno1=cursoAlumno1;
+			cursoAlumno=cursoAlumno1;
 		}
 		
 		
