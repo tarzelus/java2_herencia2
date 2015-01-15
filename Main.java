@@ -1,5 +1,5 @@
 import java.util.Hashtable;
-
+//git eclipse proba
 public class Main {
 	public static void main (String [ ] Args) {
 	        Escuela escuela = new Escuela ();
