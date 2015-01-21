@@ -1,15 +1,12 @@
 public class Profesores extends Escuela{
-
+	//git eclipse proba
 
 	private String nombreProfe;
 	private int idProfe;
 	private String tipoProfe;
 	private String horarioProfe;
 
-        public Profesores() {
-		super();
-        }
-
+       
 	// getter y setter gitekin eclipse
 
 		public String getNombreProfe()
@@ -56,5 +53,17 @@ public class Profesores extends Escuela{
 		{
 			horarioProfe=horarioProfe1;
 		}
+
+//con el overide sorescribe el metodo de inmprimir de la superclase
+		@Override
+			public void imprimir()
+			 {
+			 super.imprimir();
+			 System.out.print("\n\n--- Profesor: ");
+			 System.out.println("Nombre del profesor: " + getNombreProfe());
+			 System.out.println("Id del profesor: " + getIdProfe());
+			 System.out.println("tipo de profesor: " + getTipoProfe());
+			 System.out.println("Horario del profesor: " + getHorarioProfe());
+			}
 	
 }
