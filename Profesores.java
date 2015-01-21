@@ -55,6 +55,8 @@ public class Profesores extends Escuela{
 		}
 
 //con el overide sorescribe el metodo de inmprimir de la superclase
+		
+//para que el metodo no paase a la siguiente subclase (public final void imprimir())
 		@Override
 			public void imprimir()
 			 {
