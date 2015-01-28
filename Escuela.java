@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class Escuela {
 
-
+    
+	public Escuela(){
+		super();
+	}
 
 
 
@@ -63,7 +66,15 @@ public class Escuela {
 	 		direccionEscuela = direccionEscuela1;
 		}
 
-
+		public void imprimir()
+		 {
+		
+		 System.out.print("\n\n--- Profesor: ");
+		 System.out.println("Nombre del profesor: " + getIdEscuela());
+		 System.out.println("Id del profesor: " + getTipoEscuela());
+		 System.out.println("tipo de profesor: " + getNombreEscuela());
+		 System.out.println("Horario del profesor: " + getDireccionEscuela());
+		}
 
 
 
